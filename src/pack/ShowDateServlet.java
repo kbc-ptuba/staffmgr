@@ -14,18 +14,20 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "ShowDate", urlPatterns = { "/ShowDate" })
 public class ShowDateServlet extends javax.servlet.http.HttpServlet
 implements javax.servlet.Servlet {
-private static final long serialVersionUID = 1L; 	
+private static final long serialVersionUID = 1L;
 
-protected void doGet(HttpServletRequest request, 
+protected void doGet(HttpServletRequest request,
      HttpServletResponse response)
      throws ServletException, IOException {
 
-response.setContentType("text/html"); 
+response.setContentType("text/html");
 PrintWriter out = response.getWriter();
 out.println("");
 out.println("");
 out.println(new java.util.Date());
 out.println("");
 out.println("");
-}	  	    
+
+//やっほっほほ～～～
 }
+}//わーーーーーーーーーーーーい
